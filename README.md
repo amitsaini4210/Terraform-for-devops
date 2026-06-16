@@ -60,7 +60,7 @@ terraform-aws-project/
 ├── terraform.tf
 ├── variable.tf
 ├── outputs.tf
-├── terr-key-ec2.pub
+├── terra-key-ec2.pub
 │
 └── README.md
 ```
@@ -78,7 +78,7 @@ terraform-aws-project/
 | `dynamoDB.tf`      | Creates DynamoDB table for state locking    |
 | `variable.tf`      | Defines reusable variables                  |
 | `outputs.tf`       | Displays infrastructure outputs             |
-| `terr-key-ec2.pub` | SSH public key for EC2 access               |
+| `terra-key-ec2.pub` | SSH public key for EC2 access               |
 
 ---
 
@@ -203,13 +203,13 @@ terraform output
 Use SSH:
 
 ```bash
-ssh -i terr-key-ec2.pem ec2-user@<PUBLIC-IP>
+ssh -i terra-key-ec2.pem ec2-user@<PUBLIC-IP>
 ```
 
 Example:
 
 ```bash
-ssh -i terr-key-ec2.pem ec2-user@54.xx.xx.xx
+ssh -i terra-key-ec2.pem ec2-user@54.xx.xx.xx
 ```
 
 ---
