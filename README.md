@@ -72,7 +72,7 @@ terraform-aws-project/
 | File Name          | Description                                 |
 | ------------------ | ------------------------------------------- |
 | `providers.tf`     | AWS Provider configuration                  |
-| `terraform.tf`     | Terraform version and backend configuration |
+| `terraform.tf`     | Terraform version  |
 | `ec2.tf`           | Creates AWS EC2 instance                    |
 | `s3.tf`            | Creates Amazon S3 bucket for remote state   |
 | `dynamoDB.tf`      | Creates DynamoDB table for state locking    |
